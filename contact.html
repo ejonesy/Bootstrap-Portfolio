@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><header>Eve Jones</header></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row"> 
+                <div class="col-md-8 page-header">
+                    <h1>Contact</h1>
+                </div>
+                <div class="col-md-9 contact">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="firstname" class="form-control" id="firstname" placeholder="Jane">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="lastname" class="form-control" id="lastname" placeholder="Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea class="form-control" rows="3" placeholder="Your words could be here..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="youremail@exampleemail.com">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Add me to the mailing list!
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-3 contact-info">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title text-center"><h3>Connect with me</h3></div>
+                        </div>
+                        <div class="panel-body">
+                            <a href="https://github.com/ejonesy">
+                                <img id="github" src="assets/images/github.png">
+                            </a>
+                            <a href="https://www.linkedin.com/in/eve-jones-338846132/">
+                                <img id="linkedIn" src="assets/images/linkedIn.png">
+                            </a>
+                            <a href="mailto:eve.h.s.jones@gmail.com">
+                                <img id="gmail" src="assets/images/gmail.png">  
+                            </a>
+                        </div>
+                    </div>         
+                </div>
+            </div>
+        </div>
+        <footer class="footer">Copyright 2018 Eve Jones</footer>
+    </body>
+</html>

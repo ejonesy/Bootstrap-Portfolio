@@ -1,0 +1,184 @@
+.bio {
+    background-color: #ffffff;
+    color: #777777;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd;
+    border: 10px 10px 20px 10px;
+    max-width: 650px;
+    text-align: left;
+    left: 30px;
+}
+
+.navbar {
+    right: 0px;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 50px;
+    color: #4aaaa5;
+    border-color: #cccccc;
+}
+
+body {
+    background-color: #e9ebee;
+    border-color: #dddddd;
+    border: 10px;
+    max-width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h1{
+    color: #4aaaa5;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top: -20px;
+}
+
+h3 {
+    color: #4aaaa5;
+    border-color: black;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.image-thumbnail {
+    float: left;
+    border: #4aaaa5 2px solid;
+    border: 10px;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    right: 20px;
+}
+
+.contact-info {
+    border: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+    max-width: 270px;
+    color: #4aaaa5;
+    float: left;
+    left: 40px;
+}
+
+p {
+    line-height: 25px;
+    border: 2px solid gray;
+    background-color: #e9ebee;
+    padding: 10px;
+}
+
+.contact {
+    background-color: #e9ebee;
+    max-width: 650px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    color: #4aaaa5;
+    top: -20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+nav {
+    float: left;
+    position: fixed;
+    background-color: white;
+    color: #4aaaa5;
+    border-color: black;
+    border: 10px;
+    padding: 20px;
+    top: 17px;
+    right: 250px;
+}
+
+a:hover {
+    color: violet;
+}
+
+#github {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#linkedIn {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#gmail {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.portfolio {
+    max-width: 650px;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    bottom: 20px;
+    left: 30px;
+}
+
+#khivju {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+#charcoal_ruby {
+    height: auto;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+#Ruby_blep {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+#charskull {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+
+#by_rachel {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+
